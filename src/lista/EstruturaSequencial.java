@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class EstruturaSequencial {
 
-    public void questaoUm(){
+    public static void questaoUm(){
         System.out.println("Alô Mundo!");
     }
 
-    public void questaoDois(){
+    public static void questaoDois(){
         Scanner s1 = new Scanner(System.in);
          System.out.println("Digite um numero...");
         int num = s1.nextInt();
@@ -16,7 +16,7 @@ public class EstruturaSequencial {
         s1.close();
     }
 
-    public void questaoTres(){
+    public static void questaoTres(){
         Scanner s1 = new Scanner(System.in);
         Scanner s2 = new Scanner(System.in);
         Scanner s3 = new Scanner(System.in);
@@ -34,7 +34,7 @@ public class EstruturaSequencial {
         s3.close();
     }
 
-    public void questaoQuatro(){
+    public static void questaoQuatro(){
         Scanner s1 = new Scanner(System.in);
         System.out.println("Digite sua altura em metros...");
 
@@ -44,7 +44,7 @@ public class EstruturaSequencial {
         s1.close();
     }
 
-    public void  questaoCinco(){
+    public static void  questaoCinco(){
         Scanner s1 = new Scanner(System.in);
         System.out.println("Digite o raio do circulo...");
 
